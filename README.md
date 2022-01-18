@@ -1,4 +1,4 @@
-# DKIM-Exchange
+# DKIM-Exchange Enable and Disable Scripts
 Scripts for automating Transport Agent status for DKIM-Exchange https://github.com/Pro/dkim-exchange when doing updates on an Exchange Server
 
 According to the Updating Settings for DKIM-Exchange (https://github.com/Pro/dkim-exchange/wiki/Updating-Upgrading) you must open the Executable, go to Configure, and disable the DKIM Signer Transport Agent before updating an Exchange Server with DKIM-Exchange installed on it.
