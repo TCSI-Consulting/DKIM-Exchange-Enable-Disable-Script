@@ -3,7 +3,7 @@ Scripts for automating Transport Agent status for DKIM-Exchange https://github.c
 
 According to the Updating Settings for DKIM-Exchange (https://github.com/Pro/dkim-exchange/wiki/Updating-Upgrading) you must open the Executable, go to Configure, and disable the DKIM Signer Transport Agent before updating an Exchange Server with DKIM-Exchange installed on it.
 
-I created these two scripts to automate the process of disabling the Transport Agent.  
+I created these two scripts to automate the process of disabling the Transport Agent.  The scripts can then be run on schedule before and after maintenance windows.
 
 NOTE:  Has to be run from an elevated PowerShell or Exchange Management Shell, but will run from either as PowerShell imports the Exchange Modules
 
