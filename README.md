@@ -5,7 +5,7 @@ According to the Updating Settings for DKIM-Exchange (https://github.com/Pro/dki
 
 I created these two scripts to automate the process of disabling the Transport Agent.  The scripts can then be run on schedule before and after maintenance windows.
 
-NOTE:  Has to be run from an elevated PowerShell or Exchange Management Shell, but will run from either as PowerShell imports the Exchange Modules
+NOTE:  This script will check for and request (if needed) elevated (administrative) PowerShell or Exchange Management Shell access when run.
 
 The "Disable" script sets the "Exchange dkimsigner" Transport agent to disabled, then checks the MSExchangeTransport Service for any dependencies and stops those.  Once any dependencies are stopped, then it restarts the MSExchangeTransport Service and restarts any dependent services.
 
